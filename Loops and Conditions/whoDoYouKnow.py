@@ -1,8 +1,11 @@
 def whoDoYouKnow():
     people = input("Enter people you know separatd by commas:")
-    knownList = people.split(", ")
-    print(knownList)
-    return knownList
+    knownList = people.split(",")
+    noSpaces = []
+    for i in knownList:
+        noSpaces.append( i.strip() ) #Using 'strip' to take out extra white spaces incase user inputs with spaces
+
+    return noSpaces
 
 def askUser():
     list = whoDoYouKnow()
