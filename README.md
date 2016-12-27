@@ -1,3 +1,3 @@
 # Python
 
-Repo devoted to learning python (lists, tuples, OOP, dictionaries, etc.)
+Repo devoted to learning python (data structures, data types, OOP, etc.)
